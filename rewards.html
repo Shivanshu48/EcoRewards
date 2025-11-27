@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Rewards - EcoRewards</title>
+  <link rel="stylesheet" href="rewards.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- =========== NAVBAR (Matches Profile Page + Icons) =========== -->
+  <!-- =========== GREEN NAVBAR =========== -->
+<nav class="navbar">
+  <div class="nav-left">
+   <a href="index.html" style="text-decoration: none";> <img src="companylogo.jpg" class="nav-logo" alt="EcoRewards"></a>
+    <a href="index.html" style="text-decoration: none";><span class="nav-title" style="text-decoration: none;">EcoRewards</span></a>
+  </div>
+
+  <div class="nav-links">
+    <a href="index.html" class="nav-icon"><i class="fa-solid fa-house"></i></a>
+    <a href="rewards.html" class="nav-icon active"><i class="fa-solid fa-gift"></i></a>
+    <a href="profilepage.html" class="nav-icon"><i class="fa-solid fa-user"></i></a>
+    <button id="logoutBtn" class="nav-icon logout-icon">
+      <i class="fa-solid fa-right-from-bracket"></i>
+    </button>
+  </div>
+</nav>
+
+
+  <!-- MAIN CONTENT -->
+  <div class="container">
+    <h1>Rewards</h1>
+
+    <div class="summary-row">
+      <div class="points-card">
+        <h2>Your EcoPoints</h2>
+        <div id="your-points" class="points-value">0</div>
+        <div id="next-reward-text" class="next-reward-text"></div>
+      </div>
+
+      <div class="tiers-card">
+        <h3>Tier Progress</h3>
+        <div class="progress-container">
+          <label id="tier-label">Silver → Gold</label>
+          <div class="progress-bar">
+            <div class="progress-fill"></div>
+          </div>
+          <div class="progress-labels">
+            <span id="left-tier">Silver</span>
+            <span id="right-tier">Gold</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2>Redeemable Rewards</h2>
+    <div id="rewards-list" class="rewards-list"></div>
+
+    <h2>Your Reward History</h2>
+    <div id="rewards-history" class="history-list"></div>
+  </div>
+
+  <!-- =========== FOOTER (Matches Profile Page) =========== -->
+  <footer class="footer">
+    <p>© 2025 EcoRewards. Turning E-Waste Into Rewards.</p>
+  </footer>
+
+  <script src="rewards.js"></script>
+</body>
+</html>
