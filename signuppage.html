@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="data:,">
+  <meta charset="UTF-8" />
+  <title>Sign Up - E-Waste Rewards</title>
+  <link rel="stylesheet" href="loginpage.css" />
+</head>
+<body>
+  <div class="form-container">
+    <h2 class="title">Sign Up</h2>
+    <form id="signup-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="contact">Contact Number:</label>
+      <input type="tel" id="contact" placeholder="Only 10 digits" name="contact" pattern="[0-9]{10}" required />
+
+      <label for="city">City:</label>
+      <input type="text" id="city" name="city" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <button type="button" id="send-otp-btn">Send OTP</button>
+
+      <!-- OTP Section -->
+      <div id="otp-section" style="display:none; margin-top:1em;">
+        <label for="otp">Enter OTP:</label>
+        <input type="text" id="otp" name="otp" required />
+        <button type="button" id="verify-otp-btn">Verify OTP</button>
+      </div>
+
+      <br>
+      <button type="submit" id="register-btn" disabled>Register</button>
+    </form>
+
+    <p class="link-text">
+      Already have an account? <a href="loginpage.html">Login</a>
+    </p>
+  </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const form = document.getElementById('signup-form');
+  const sendOtpBtn = document.getElementById('send-otp-btn');
+  const verifyOtpBtn = document.getElementById('verify-otp-btn');
+  const otpSection = document.getElementById('otp-section');
+  const registerBtn = document.getElementById('register-btn');
+
+  let otpVerified = false;
+
+  registerBtn.style.display = 'none';
+
+  //  Send OTP with email check
+  sendOtpBtn.addEventListener('click', async () => {
+    const email = document.getElementById('email').value.trim();
+    if (!email) {
+      alert('Please enter a valid email address.');
+      return;
+    }
+
+    try {
+      // Step 1: Check if email is already registered
+      const checkRes = await fetch('http://localhost:5000/check-email', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email })
+      });
+
+      const checkData = await checkRes.json();
+      if (checkRes.ok && checkData.exists) {
+        alert('Email already registered.Please Login!');
+        return;
+      }
+
+      // Step 2: Send OTP
+      const response = await fetch('http://localhost:5000/send-otp', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email }),
+      });
+
+      const data = await response.json();
+      if (response.ok) {
+        alert('OTP sent to your email.');
+        otpSection.style.display = 'block';
+      } else {
+        alert(data.message || 'Failed to send OTP.');
+      }
+    } catch (err) {
+      alert('Error sending OTP: ' + err.message);
+    }
+  });
+
+  //  Verify OTP
+  verifyOtpBtn.addEventListener('click', async () => {
+    const email = document.getElementById('email').value.trim();
+    const otp = document.getElementById('otp').value.trim();
+
+    if (!otp) {
+      alert('Please enter the OTP.');
+      return;
+    }
+
+    try {
+      const response = await fetch('http://localhost:5000/verify-otp', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email, otp }),
+      });
+
+      const data = await response.json();
+      if (response.ok) {
+        alert('OTP verified successfully! Please click on Register Button to Register');
+        otpVerified = true;
+        registerBtn.style.display = 'inline-block';
+        registerBtn.disabled = false;
+        document.getElementById('otp').disabled = true;
+        verifyOtpBtn.disabled = true;
+      } else {
+        alert(data.message || 'OTP verification failed.');
+      }
+    } catch (err) {
+      alert('Error verifying OTP: ' + err.message);
+    }
+  });
+
+  //  Final Register
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    if (!otpVerified) {
+      alert('Please verify the OTP first.');
+      return;
+    }
+
+    const name = document.getElementById('name').value.trim();
+    const contact = document.getElementById('contact').value.trim();
+    const city = document.getElementById('city').value.trim();
+    const email = document.getElementById('email').value.trim();
+
+    try {
+      const response = await fetch('http://localhost:5000/register', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ name, mobile: contact, city, email }),
+      });
+
+      const data = await response.json();
+      if (response.ok) {
+       alert('Registration successful!');
+setTimeout(() => {
+  window.location.href = 'index.html';
+},50); // Redirect after 0.5 seconds to let the alert show
+
+form.reset();
+registerBtn.style.display = 'none';
+otpSection.style.display = 'none';
+otpVerified = false;
+
+      } else {
+        alert(data.message || 'Registration failed.');
+      }
+    } catch (err) {
+      alert('Error registering user: ' + err.message);
+    }
+  });
+});
+</script>
+</body>
+</html>
