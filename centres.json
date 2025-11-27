@@ -1,0 +1,460 @@
+{
+  "Delhi": [
+    {
+      "name": "Global Waste Solution",
+      "address": "45 Main Market, Connaught Place",
+      "rating": "4*",
+      "wasteRecycledLastMonth": "2500kg",
+      "contact": "9999253054",
+      "email": "glblwaste12@gmail.com",
+      "time": "9 AM - 6 PM",
+      "latitude": 28.6139,
+      "longitude": 77.209
+    },
+    {
+      "name": "Swach Enviro E-waste India Pvt. Ltd.",
+      "address": "21 Ring Road, Transport Centre (Near Punjabi Bagh Flyover), New Delhi-110035",
+      "rating": "3.5*",
+      "wasteRecycledLastMonth": "1500kg",
+      "contact": "9268568539",
+      "email": "sswachhenv0812@gmail.com",
+      "time": "10 AM - 7 PM",
+      "latitude": 28.6723,
+      "longitude": 77.1240
+    },
+    {
+      "name": "Namo eWaste Management Ltd.",
+      "address": "B-91, A-6, LGF, Kalkaji, South Delhi, New Delhi 110019",
+      "rating": "3*",
+      "wasteRecycledLastMonth": "1000kg",
+      "contact": "9939274084",
+      "email": "namowaste322@gmail.com",
+      "time": "9:30 AM - 6:30 PM",
+      "latitude": 28.5328,
+      "longitude": 77.2606
+    },
+    {
+      "name": "BRP Infotech Pvt. Ltd.",
+      "address": "Plot No-535, Basement, F.I.E Patparganj, East Delhi, Delhi-110092",
+      "rating": "4*",
+      "wasteRecycledLastMonth": "2000kg",
+      "contact": "8998263155",
+      "email": "brpinfo112@gmail.com",
+      "time": "9:00 AM - 6:00 PM",
+      "latitude": 28.6397,
+      "longitude": 77.3103
+    },
+    {
+      "name": "Muskan Technologies",
+      "address": "B-96, Okhla Industrial Area, Phase-1, Delhi - 110020",
+      "rating": "3.8*",
+      "wasteRecycledLastMonth": "2600kg",
+      "contact": "9854321170",
+      "email": "muskan3450@gmail.com",
+      "time": "9:00 AM - 6:00 PM",
+      "latitude": 28.5222,
+      "longitude": 77.2795
+    }
+  ],
+  "Mumbai": [
+    {
+      "name": "E Waste Recycling India",
+      "address": "615, Pearl Plaza Premises, Andheri West, Mumbai  400058",
+      "rating": "4.5*",
+      "wasteRecycledLastMonth": "2800kg",
+      "contact": "9234253028",
+      "email": "greenindia112@gmail.com",
+      "time": "9:00 AM - 6:00 PM",
+      "latitude": 19.1363,
+      "longitude": 72.8277
+    },
+    {
+      "name": "Nicholas Recycling Pvt. Ltd.",
+      "address": "Nicholas Compound, Sativali Road, Valiv, Vasai East  401208",
+      "rating": "3.5*",
+      "wasteRecycledLastMonth": "2750kg",
+      "contact": "9244557619",
+      "email": "nicholas000@gmail.com",
+      "time": "10:00 AM - 7:00 PM",
+      "latitude": 19.3933,
+      "longitude": 72.8624
+    },
+    {
+      "name": "Just Dispose Recycling Pvt. Ltd.",
+      "address": "Unit No: 103, 110, 119, Arvind Industrial Estate, Navghar, Vasai East, Dist. Thane",
+      "rating": "3*",
+      "wasteRecycledLastMonth": "2000kg",
+      "contact": "8902135676",
+      "email": "disposejst3228@gmail.com",
+      "time": "9:30 AM - 6:30 PM",
+      "latitude": 18.3943,
+      "longitude": 72.9457
+    },
+    {
+      "name": "Kohinoor E-Waste Recycling Pvt. Ltd.",
+      "address": "Gut No. 205/1 and 205/2, Opp. Gurudatta Washing Centre, Dhekhu, Khalapur, Dist. Raigad",
+      "rating": "4*",
+      "wasteRecycledLastMonth": "2800kg",
+      "contact": "9874324595",
+      "email": "kohi12noor2@gmail.com",
+      "time": "9:00 AM - 6:00 PM",
+      "latitude": 18.8341,
+      "longitude": 73.2886
+    },
+    {
+      "name": "Masstech Recycling LLP",
+      "address": "Gala No. 56, 58, 59 & 82, M.J.K. Compound, Kherani Road, Sakinaka, Mumbai  400072",
+      "rating": "3.8*",
+      "wasteRecycledLastMonth": "2800kg",
+      "contact": "9854090758",
+      "email": "masstech300@gmail.com",
+      "time": "9:00 AM - 6:00 PM",
+      "latitude": 19.1004,
+      "longitude": 72.8818
+    }
+  ],
+  "Bangalore": [
+    {
+      "name": "Ebox Recyclers  Electronic City",
+      "address": "Shed #B-3, KSSIDC Industrial Estate, Veerasandra 2nd Stage, Huskur Road, Electronic City, Bangalore 560100",
+      "rating": "4.8*",
+      "wasteRecycledLastMonth": "2800kg",
+      "contact": "9844068944",
+      "email": "eboxx@gmail.com",
+      "time": "9:00 AM - 6:00 PM",
+      "latitude": 12.8407,
+      "longitude": 77.6764
+    },
+    {
+      "name": "Ecofly E-Waste Recycling Pvt. Ltd.  Nelamangala",
+      "address": "No. 63A, Dasanapur (H), NH4, Tumkur Road, Behind Hanuman Temple, Nelamangala, Bangalore 562123",
+      "rating": "3.5*",
+      "wasteRecycledLastMonth": "2750kg",
+      "contact": "8675231456",
+      "email": "ecofly72fly0@gmail.com",
+      "time": "10:00 AM - 7:00 PM",
+      "latitude": 13.0650,
+      "longitude": 77.4316
+    },
+    {
+      "name": "EWOUR  Peenya Industrial Area",
+      "address": "Plot #5C, Peenya Industrial Area, Bangalore 560058",
+      "rating": "3*",
+      "wasteRecycledLastMonth": "2000kg",
+      "contact": "9986172763",
+      "email": "ewourpeenya@gmail.com",
+      "time": "9:30 AM - 6:30 PM",
+      "latitude": 13.0234,
+      "longitude": 77.5099
+    },
+    {
+      "name": "E-Parisaraa Pvt. Ltd.  Peenya",
+      "address": "No. B-41/1, 3rd Stage, Peenya Industrial Estate, Bangalore 560058",
+      "rating": "4*",
+      "wasteRecycledLastMonth": "2800kg",
+      "contact": "080-28360902",
+      "email": "recycle@ewasteindia.com",
+      "time": "9:00 AM - 6:00 PM",
+      "latitude": 13.0152,
+      "longitude": 77.5060
+    },
+    {
+      "name": "Zolopik E-Waste Recycler  JP Nagar",
+      "address": "No. 23rd A, Marenahalli Main Road, 2nd Phase, J. P. Nagar, Bangalore 560040",
+      "rating": "3.8*",
+      "wasteRecycledLastMonth": "2800kg",
+      "contact": "8884449985",
+      "email": "recycle@zolopik.com",
+      "time": "9:00 AM - 6:00 PM",
+      "latitude": 12.9126,
+      "longitude": 77.5889
+    }
+  ],
+  "Chennai": [
+    {
+      "name": "Sree E-Waste Recycling",
+      "address": "14, Velachery Rd, Dhadeswaram Nagar, Velachery, Chennai, Tamil Nadu 600042",
+      "rating": "4.8*",
+      "wasteRecycledLastMonth": "2800kg",
+      "contact": "9098654123",
+      "email": "sreee2@gmail.com",
+      "time": "9 AM - 6 PM",
+      "latitude": 12.9674,
+      "longitude": 80.2199
+    },
+    {
+      "name": "Ramky ARM  E-Waste Recycling, Computer Scrap Buyers and Collection Center",
+      "address": "4, Diamond Dune, 323, NH 4, Rajaram Mehta Nagar, Aminjikarai, Chennai, Tamil Nadu 600029",
+      "rating": "3.5*",
+      "wasteRecycledLastMonth": "2750kg",
+      "contact": "9922453278",
+      "email": "ramkyarm@gmail.com",
+      "time": "10:00 AM - 7:00 PM",
+      "latitude": 13.0726,
+      "longitude": 80.2210
+    },
+    {
+      "name": "Global Waste Recyclers Limited",
+      "address": "Saravana Complex, IIIrd Floor, 200, Peters Road, Royapettah, Chennai, Tamil Nadu 600014",
+      "rating": "3*",
+      "wasteRecycledLastMonth": "2000kg",
+      "contact": "8712563429",
+      "email": "globalwaste11@gmail.com",
+      "time": "9:30 AM - 6:30 PM",
+      "latitude": 13.0520,
+      "longitude": 80.2713
+    },
+    {
+      "name": "Recykal Technology Pvt Ltd.",
+      "address": "No 69,4th Main Rd, Sithalapakkam, Chennai, Tamil Nadu 600126",
+      "rating": "4*",
+      "wasteRecycledLastMonth": "2800kg",
+      "contact": "9765416248",
+      "email": "recykal3456@gmail.com",
+      "time": "9:00 AM - 6:00 PM",
+      "latitude": 12.8832,
+      "longitude": 80.1899
+    },
+    {
+      "name": "Anthony Traders",
+      "address": "Back side, No.1, Vivekanand St, near Karumari Amman Kovil, Annani Indira Nagar, Indira Nagar, Okkiyampettai, Chennai, Thoraipakkam, Tamil Nadu 600097",
+      "rating": "3.8*",
+      "wasteRecycledLastMonth": "2800kg",
+      "contact": "9854090758",
+      "email": "anthony7878@gmail.com",
+      "time": "9:00 AM - 6:00 PM",
+      "latitude": 12.9380,
+      "longitude": 80.2410
+    }
+  ],
+  "Kolkata": [
+    {
+      "name": "Kolkata Municipal Corporation (KMC)  Dhapa Garage",
+      "address": "Dhapa Garage, Tangra, Kolkata",
+      "rating": "4.5*",
+      "wasteRecycledLastMonth": "2800kg",
+      "contact": "9804103317",
+      "email": "kmc.012@gmail.com",
+      "time": "9:00 AM - 6:00 PM",
+      "latitude": 22.5602,
+      "longitude": 88.4421
+    },
+    {
+      "name": "Eco Age Recycling",
+      "address": "Kashipur, South 24 Parganas, Kolkata 700135",
+      "rating": "3.5*",
+      "wasteRecycledLastMonth": "2750kg",
+      "contact": "8584888008",
+      "email": "ecoagerecycle@gmail.com",
+      "time": "10:00 AM - 7:00 PM",
+      "latitude": 22.3433,
+      "longitude": 88.4604
+    },
+    {
+      "name": "E-Waste Recyclers India (EWRI)  OM Logistics Ltd.",
+      "address": "P-1, New C.I.T P-46 Extn., Near Brace Bridge Railway Station, Hide Road, Kolkata 700088",
+      "rating": "3*",
+      "wasteRecycledLastMonth": "2000kg",
+      "contact": "8017307286",
+      "email": "emriom99@gmail.com",
+      "time": "9:30 AM - 6:30 PM",
+      "latitude": 22.5300,
+      "longitude": 88.3110
+    },
+    {
+      "name": "Ecompusell",
+      "address": "Tirupati Apartment No. G-2, 165/1 Ashok Garh, Kolkata 700108",
+      "rating": "4*",
+      "wasteRecycledLastMonth": "2800kg",
+      "contact": "9330988059",
+      "email": "ecompusell88@gmail.com",
+      "time": "9:00 AM - 6:00 PM",
+      "latitude": 22.6300,
+      "longitude": 88.3700
+    },
+    {
+      "name": "Quickssell",
+      "address": "33/H/3, Mirza Ghalib Street, Kolkata 700016",
+      "rating": "3.8*",
+      "wasteRecycledLastMonth": "2800kg",
+      "contact": "8335981512",
+      "email": "sellkaro68@gmail.com",
+      "time": "9:00 AM - 6:00 PM",
+      "latitude": 22.5330,
+      "longitude": 88.3520
+    }
+  ],
+  "Hyderabad": [
+    {
+      "name": "Re Sustainability (Formerly Ramky Enviro Engineers)",
+      "address": "'Hyderabad, Telangana",
+      "rating": "4.5*",
+      "wasteRecycledLastMonth": "2800kg",
+      "contact": "8754963215",
+      "email": "gliug12@gmail.com",
+      "time": "9:00 AM - 6:00 PM",
+      "latitude": 17.4551,
+      "longitude": 78.5708
+    },
+    {
+      "name": "Crapbin Recycling Pvt. Ltd.",
+      "address": "Hyderabad, Telangana",
+      "rating": "3.5*",
+      "wasteRecycledLastMonth": "2750kg",
+      "contact": "9658478596",
+      "email": "crapbin876@gmail.com",
+      "time": "10:00 AM - 7:00 PM",
+      "latitude": 17.4559,
+      "longitude": 78.4481
+    },
+    {
+      "name": "Khaja Agency (Auctus E Recycling Solutions)",
+      "address": "Behind MMR Garden, RR Nagar, Old Bowenpally, Secunderabad, Hyderabad 500011",
+      "rating": "3*",
+      "wasteRecycledLastMonth": "2000kg",
+      "contact": "9761688731",
+      "email": "khaja1khaja@gmail.com",
+      "time": "9:30 AM - 6:30 PM",
+      "latitude": 17.5093,
+      "longitude": 78.4652
+    },
+    {
+      "name": "Technics Infosolutions Pvt. Ltd.",
+      "address": "5-9-58/1-15, Plot Number -702, Babu Khan Estate, Basheer Bagh, Hyderabad 500001",
+      "rating": "4*",
+      "wasteRecycledLastMonth": "2800kg",
+      "contact": "9390821276",
+      "email": "technics123@gmail.com",
+      "time": "9:00 AM - 6:00 PM",
+      "latitude": 17.4401,
+      "longitude": 78.3489
+    },
+    {
+      "name": "E-Waste Recycling Centers",
+      "address": "Hyderabad, Telangana",
+      "rating": "3.8*",
+      "wasteRecycledLastMonth": "2800kg",
+      "contact": "8524639847",
+      "email": "recyclewaste44@gmail.com",
+      "time": "9:00 AM - 6:00 PM",
+      "latitude": 17.4526,
+      "longitude": 78.4417
+    }
+  ],
+  
+  "Pune": [
+    {
+      "name": "SK E-Waste Disposal",
+      "address": "Gate No. 116, Fine Weight Bridge, Jadhavwadi, Chikhali, Tal: Haveli, Dist: Pune",
+      "rating": "4.5*",
+      "wasteRecycledLastMonth": "2800kg",
+      "contact": "7585954612",
+      "email": "shifatreaders92@gmail.com",
+      "time": "9:00 AM - 6:00 PM",
+      "latitude": 18.6745,
+      "longitude": 73.8478
+    },
+    {
+      "name": "Green IT Recycling Centre Pvt. Ltd.",
+      "address": "Gate No. 207, Plot No. 3 & 4, Near Scienunero Company, Near PMT Depot, Shindewadi, Tal. Bhor, Dist. Pune",
+      "rating": "3.5*",
+      "wasteRecycledLastMonth": "2750kg",
+      "contact": "6394521524",
+      "email": "rth_raj@hotmail.com",
+      "time": "10:00 AM - 7:00 PM",
+      "latitude": 18.1450,
+      "longitude": 73.8500
+    },
+    {
+      "name": "Kuldeep E-Waste Disposals",
+      "address": "Office No. 13, Manikmoti Complex, Near Reliance Digital, Katraj Chowk, Pune – 411046",
+      "rating": "3*",
+      "wasteRecycledLastMonth": "2000kg",
+      "contact": "7733995555",
+      "email": "info@ewastekuldeep.com",
+      "time": "9:30 AM - 6:30 PM",
+      "latitude": 18.4495,
+      "longitude": 73.8571
+    },
+    {
+      "name": "Pune Greens Electronic Waste Recycler Pvt. Ltd.",
+      "address": "Sr. No. 63/1, B-4/1, Handewadi Road, Hadapsar, Pune",
+      "rating": "4*",
+      "wasteRecycledLastMonth": "2800kg",
+      "contact": "9922071877",
+      "email": "punegreensewaste@gmail.com",
+      "time": "9:00 AM - 6:00 PM",
+      "latitude": 18.4700,
+      "longitude": 73.9300
+    },
+    {
+      "name": "Shankar Enterprises",
+      "address": "Maharashtra,Pune",
+      "rating": "3.8*",
+      "wasteRecycledLastMonth": "2800kg",
+      "contact": " 9637108189",
+      "email": "ewastepune0@gmail.com",
+      "time": "9:00 AM - 6:00 PM",
+      "latitude": 18.5204,
+      "longitude": 73.8567
+    }
+  ],
+  "Ahmedabad": [
+    {
+      "name": "ECS Environment Pvt. Ltd.",
+      "address": "THE FIRST, B-02, ECS Corporate House, Besides ITC Narmada Hotel, Vastrapur, Ahmedabad, Gujarat 380015",
+      "rating": "4.5*",
+      "wasteRecycledLastMonth": "2800kg",
+      "contact": "8980004000",
+      "email": "ewaste@ecscorporation.com",
+      "time": "9:00 AM - 6:00 PM",
+      "latitude": 23.0306,
+      "longitude": 72.5156
+    },
+    {
+      "name": "SmartReclaim Gujarat",
+      "address": "E-Coli Waste Management Pvt. Ltd.",
+      "rating": "3.5*",
+      "wasteRecycledLastMonth": "2750kg",
+      "contact": "7046469000",
+      "email": "info@ecoliwaste.com",
+      "time": "10:00 AM - 7:00 PM",
+      "latitude": 23.0060,
+      "longitude": 72.5590
+    },
+    {
+      "name": "Madhav Pastiwala",
+      "address": "Shop-14, Madhav Complex, Near Vasna Bus Station, Jivraj Mehta Hospital Road, Near Prajapati Garden, Vasna, Ahmedabad 380007",
+      "rating": "3*",
+      "wasteRecycledLastMonth": "2000kg",
+      "contact": "8866696614",
+      "email": "madhavpastiwala@gmail.com",
+      "time": "9:30 AM - 6:30 PM",
+      "latitude": 23.0074,
+      "longitude": 72.6590
+    },
+    {
+      "name": "Gulshan IBC Group",
+      "address": "Kamod Circle - Bakrol, Ahmedabad, Gujarat",
+      "rating": "4*",
+      "wasteRecycledLastMonth": "2800kg",
+      "contact": "9157615075",
+      "email": "gulshanibc@gmail.com",
+      "time": "9:00 AM - 6:00 PM",
+      "latitude": 22.9378,
+      "longitude": 72.5434
+    },
+    {
+      "name": "BioMax Security",
+      "address": "Ahmedabad, Gujarat",
+      "rating": "3.8*",
+      "wasteRecycledLastMonth": "2800kg",
+      "contact": "8547965479",
+      "email": "biomax234@gmail.com",
+      "time": "9:00 AM - 6:00 PM",
+      "latitude": 23.0339,
+      "longitude": 72.5850
+    }
+  ]
+}
+
