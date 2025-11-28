@@ -63,7 +63,7 @@
   <section id="home" class="hero">
     <div class="hero-content">
       <h1>Turn Your E-Waste Into Rewards!</h1>
-      <p>Recycle your electronics and earn reward points convertible to cash.</p>
+      <p>Recycle your electronics and earn reward points convertible to exciting Gifts.</p>
       <button class="cta-button">Start Recycling Now</button>
     </div>
   </section>
@@ -327,7 +327,7 @@
             <textarea id="items" placeholder="List the e-waste items you want to recycle" required></textarea>
           </div>
           <div class="pickup-fee">
-            <p>Pickup Fee: ₹99</p>
+            <p>Pickup Fee: ₹49</p>
             <small>*Additional charges may apply based on item weight and location</small>
           </div>
           <button type="submit" class="submit-btn">Schedule Pickup</button>
@@ -335,10 +335,37 @@
       </div>
     </div>
   </div>
+  <!-- Login Popup -->
+<div id="loginPopup" class="popup-overlay">
+    <div class="popup-box">
+        <h3>Please Login</h3>
+        <p>You must log in to schedule a pickup.</p>
+        <button id="loginPopupBtn">Login</button>
+    </div>
+</div>
 
 <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 <script src="script.js"></script>
-  
+<script>
+document.getElementById("pickupBtn").addEventListener("click", function () {
+
+    const user = localStorage.getItem("loggedInUser"); 
+
+    if (!user) {
+        // Show popup instead of alert
+        document.getElementById("loginPopup").style.display = "flex";
+        return;
+    }
+
+    // logged in → go ahead
+    window.location.href = "index.html#pickupModal";
+});
+
+document.getElementById("loginPopupBtn").addEventListener("click", function () {
+    window.location.href = "loginpage.html";
+});
+</script>
+
 </body>
 </html>
